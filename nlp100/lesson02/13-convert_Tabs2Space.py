@@ -9,7 +9,7 @@ def TabsToSpace(path):
 
 if __name__ == '__main__':
     # sed -e 's/\t/ /g' ./././nlp100/lesson02/data/popular-names.txt
-    TabsToSpace('./././nlp100/lesson02/data/popular-names.txt')
+    TabsToSpace('./data/popular-names.txt')
 
 # cat '[PATH]/popular-names.txt' | sed 's/\t/ /'
 # cat '[PATH]/popular-names.txt' | tr '\t' ' '
