@@ -7,9 +7,11 @@ def N_gram_char(n, text):
 if __name__ == '__main__':
     X = set(N_gram_char(2, "paraparaparadise"))
     Y = set(N_gram_char(2, "paragraph"))
-    print(X | Y)
-    print(X & Y)
-    print(X - Y)
+    print(f"X = {X}")
+    print(f"Y = {Y}")
+    print(f"X | Y = {X | Y}") # 和集合
+    print(f"X & Y = {X & Y}") # 積集合
+    print(f"X - Y = {X - Y}") # 差集合
     if "se" in X:
         print(f"X have 'se'")
     if "se" in Y:
